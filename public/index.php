@@ -9,6 +9,9 @@
     require SYS_PATH."Router.php";
     require APP_PATH."routes/routes.php";
     require SYS_PATH."Response.php";
+    require SYS_PATH."Database.php";
+    require SYS_PATH."Model.php";
+    require APP_PATH."models/User.php";
 
     //OBTENGO LA URL SI EXISTE SINO REDIRECCIONA A HOME
     if(isset($_GET["url"])){

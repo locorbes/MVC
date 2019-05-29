@@ -1,5 +1,9 @@
-<?php if(!isset($values)){
-    $values = "desconocido";
+<?php 
+if(!isset($name)){
+    $name = "desconocido";
+}
+if(!isset($surname)){
+    $surname = "desconocido";
 }
 ?>
 <!DOCTYPE html>
@@ -11,7 +15,6 @@
     <title>Home</title>
 </head>
 <body>
-    Hola 
-    <?=$values?>
+    Hola <?=$name?> <?=$surname?>
 </body>
 </html>
